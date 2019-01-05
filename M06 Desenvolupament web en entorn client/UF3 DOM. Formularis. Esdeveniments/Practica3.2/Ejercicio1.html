@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio_1: Formulario</title>
+    <script src="Ejercicio1.js" type="application/javascript" ></script>
+    <style>
+
+        div * {
+
+            margin: 5px;
+        }
+
+        input[type = "button"]{
+
+            margin-left: 100px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<!--<editor-fold desc="Enunciado del ejercicio">-->
+<!--Nom: nom i cognom (al menys el primer cognom), amb inicial en majúscules, i separats el nom del cognom per un espai en blanc.-->
+<!--Edat: número entre 18 i 99.-->
+<!--Comentaris: he de tenir un caràcter "#" i no ha de tenir els insults "bobo" i "tonto".-->
+<!--Email: ha de ser una adreça vàlida.-->
+<!--</editor-fold>-->
+
+<div>
+
+    <label for="Nombre"> Nom :</label><input type="text" id="Nombre">
+    <label for="Edat"> Edat :</label><input type="text" id="Edat"><br>
+    <label for="E-mail"> E-mail </label><input type="text" id="E-mail"><br>
+    <label for="selector_pregunta"> Com ens ha trobat </label>
+    <select name="preguntas_cliente" id="selector_pregunta" onchange="opcion_escogida_selector()">
+
+        <option value="A traves de les xarxes socials"> A traves de les xarxes socials </option>
+        <option value="A traves de la radio"> A traves de la radio </option>
+        <option value="A traves de la television"> A traves de la television </option>
+        <option value="Buzoneria"> Buzoneria </option>
+
+    </select>
+
+
+    <br><br>
+    <label for="Textarea_comentarios"> Comentarios </label>
+    <textarea name="Comentarios" id="Textarea_comentarios" cols="30" rows="5"></textarea><br>
+    <input type="button" name="Enviar" value="Enviar" onclick="Resolucion()">
+    <input type="button" name="Borrar_Campos" value="Borrar camps" onclick="Borrar_camps()">
+
+    <p id="campo_resolucion"></p>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Ejercicio5.js" type="application/javascript"></script>
+    <style>
+
+        select {
+            padding: 8px;
+            background-color: #f0f0f0;
+            overflow: auto;
+
+            width: 100px;
+            text-align: center;
+
+
+        }
+
+    </style>
+</head>
+<body>
+
+<label for="lista_alumnos_A"></label><select name="Alumnos_A" id="lista_alumnos_A" size="8" multiple >
+
+    <option>Alumno 1</option>
+    <option>Alumno 2</option>
+    <option>Alumno 3</option>
+    <option>Alumno 4</option>
+    <option>Alumno 5</option>
+    <option>Alumno 6</option>
+    <option>Alumno 7</option>
+    <option>Alumno 8</option>
+
+</select>
+
+<input type="button" id="boton_izquierdo" value="&lt;&lt;" onclick="movimiento_izq_alumnos()" />
+<input type="button" id="boton_derecho" value="&gt;&gt;" onclick="movimiento_der_alumnos()"/>
+
+
+<label for="lista_alumnos_B"></label><select name="Alumnos_B" id="lista_alumnos_B" size="8" multiple>
+
+
+</select>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript" src="Ejercicio1.js"></script>
+</head>
+
+<style>
+
+    form, textarea {
+
+        margin-top: 5%;
+        margin-left: 10%;
+        line-height: 3;
+    }
+
+
+    form input[type="submit"] {
+
+        margin-left: -10%;
+
+    }
+
+
+</style>
+
+<body>
+
+<h1> Ejercicio 1 </h1>
+
+
+<form name="Formulario_Ejercicio_1"  method="post" onsubmit="return false"> <!-- Devuelve falso para que el formulario no se recargue al no encontrar una pagina a la que dirigirse en el parametro action -->
+
+
+    <label for="Opcion_1"></label><input type="checkbox" id="Opcion_1" name="Opcion_1"
+                                         value="Adult"> Adult <br>
+
+
+
+    <label for="Opcion_2"></label><input type="checkbox" id="Opcion_2" name="Opcion_2"
+                                         value="Solter"> Solter <br>
+
+
+    <label for="Opcion_3"></label><input type="checkbox" id="Opcion_3" name="Opcion_3"
+                                         value="Universitari"> Universitari <br>
+
+
+    <input type="submit" name="Envio" onclick="Devolver_Parametro()"> <br>
+
+
+</form>
+
+<label for="myTextarea"> </label><textarea id="myTextarea">Selecciona un parametro y pulsa "Envio" </textarea>
+
+
+</body>
+
+</html>

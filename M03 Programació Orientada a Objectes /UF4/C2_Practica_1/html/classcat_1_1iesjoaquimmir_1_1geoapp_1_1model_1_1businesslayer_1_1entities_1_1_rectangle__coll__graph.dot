@@ -1,0 +1,6 @@
+digraph "cat.iesjoaquimmir.geoapp.model.businesslayer.entities.Rectangle"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{cat.iesjoaquimmir.geoapp.model.businesslayer.entities.\lRectangle\n|~ costado_base\l~ costado_lateral\l|+ Rectangle()\l+ Rectangle()\l+ getCostado_base()\l+ setCostado_base()\l+ getCostado_lateral()\l+ setCostado_lateral()\l+ Calcular_perimetro()\l+ Calcular_area()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

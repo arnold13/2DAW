@@ -1,0 +1,832 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"color",
+				"color_baldosa"
+			],
+			[
+				"back",
+				"backgroundColor〔variable〕"
+			],
+			[
+				"colore",
+				"colores_baldosas\t[]"
+			],
+			[
+				"ba",
+				"Baldosa_aleatoria()"
+			],
+			[
+				"Baldo",
+				"Baldosa_aleatoria()"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"num_rondas",
+				"num_rondas_necesarias"
+			],
+			[
+				"ro",
+				"rondas"
+			],
+			[
+				"nivel",
+				"nivel_1"
+			],
+			[
+				"ra",
+				"random()"
+			],
+			[
+				"arr",
+				"array_baldosas()"
+			],
+			[
+				"num",
+				"num_foto_anterior"
+			],
+			[
+				"ima",
+				"imagen_en_array_destino"
+			],
+			[
+				"e",
+				"getElementById〔function〕"
+			],
+			[
+				"arra",
+				"array_fotos()"
+			],
+			[
+				"Numr",
+				"Numero_10.jpg\tw:100 h:120"
+			],
+			[
+				"N",
+				"Numero_2.jpg\tw:93 h:120"
+			],
+			[
+				"table",
+				"table\tTag"
+			],
+			[
+				"Color",
+				"Color_Random()"
+			],
+			[
+				"cono",
+				"console"
+			],
+			[
+				"nu",
+				"numero_aleatorio"
+			],
+			[
+				"Mat",
+				"Math\t{}"
+			],
+			[
+				"efec",
+				"efecto_quita_raton\t(Practica1.3_Ejercicio_2-Arnold_Ccari_Villalta.JS)"
+			],
+			[
+				"onmo",
+				"onmouseout\tAttr"
+			],
+			[
+				"onmouse",
+				"onmouseover\tAttr"
+			],
+			[
+				"he",
+				"height\tAttr"
+			],
+			[
+				"tab",
+				"table\tTag"
+			],
+			[
+				"efecto_en",
+				"efecto_encima(enlace)"
+			],
+			[
+				"le",
+				"letras_mayusculas()"
+			],
+			[
+				"color_fo",
+				"color_fons()"
+			],
+			[
+				"color_font",
+				"color_font()"
+			],
+			[
+				"enl",
+				"enlaces"
+			],
+			[
+				"Tiem",
+				"Tiempo()"
+			],
+			[
+				"tiempo",
+				"tiempo_repartido"
+			],
+			[
+				"get",
+				"getHours()"
+			],
+			[
+				"tiemp",
+				"tiempo_repartido"
+			],
+			[
+				"vA",
+				"value\t(Practica1.2_Ejercicio_12-Arnold_Ccari_Villalta.html)"
+			],
+			[
+				"co",
+				"count"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"respuesta",
+				"respuesta_email_regex"
+			],
+			[
+				"respue",
+				"respuesta_email_regex"
+			],
+			[
+				"len",
+				"length\t(num)"
+			],
+			[
+				"matc",
+				"match\t(Apuntes_Javascript.js)"
+			],
+			[
+				"resp",
+				"respuesta\t(Apuntes_Javascript.js)"
+			],
+			[
+				"Reg",
+				"RegExp\t(Apuntes_Javascript.js)"
+			],
+			[
+				"clear",
+				"clearTimeout〔function〕"
+			],
+			[
+				"setT",
+				"setTimeout〔function〕"
+			],
+			[
+				"fec",
+				"fecha_original"
+			],
+			[
+				"Da",
+				"Date"
+			],
+			[
+				"getutc",
+				"getUTCDate()"
+			],
+			[
+				"gets",
+				"getSeconds()"
+			],
+			[
+				"sec",
+				"seconds"
+			],
+			[
+				"fe",
+				"fecha_despues_prompt\t{}"
+			],
+			[
+				"set",
+				"setInterval〔function〕"
+			],
+			[
+				"getd",
+				"getDay()"
+			],
+			[
+				"fecha",
+				"fecha_info"
+			],
+			[
+				"getutcmi",
+				"getUTCMinutes()"
+			],
+			[
+				"numero",
+				"numero_decimal"
+			],
+			[
+				"numer",
+				"numero_decimal"
+			],
+			[
+				"letr",
+				"letra_regex\t{}"
+			],
+			[
+				"letra",
+				"letra_a_encontrar"
+			],
+			[
+				"let",
+				"letra_a_encontrar"
+			],
+			[
+				"caden",
+				"cadena_de_texto"
+			],
+			[
+				"cade",
+				"cadena_de_texto"
+			],
+			[
+				"cadena",
+				"cadena_seleccionada"
+			],
+			[
+				"parse",
+				"parseInt〔function〕"
+			],
+			[
+				"val",
+				"valor_posicion_caracter"
+			],
+			[
+				"posicion",
+				"posicion\t(?)"
+			],
+			[
+				"posicio",
+				"Analisis_de_caracter(frase, posicion)"
+			],
+			[
+				"posi",
+				"posicion_caracter"
+			],
+			[
+				"frase",
+				"frase_invertida\t(str)"
+			],
+			[
+				"ti",
+				"tigre.jpg\tw:296 h:170"
+			],
+			[
+				"inn",
+				"innerHeight〔variable〕"
+			],
+			[
+				"windo",
+				"window"
+			],
+			[
+				"preg",
+				"pregunta_tiene_respuesta_valida"
+			],
+			[
+				"Max",
+				"Max_Alto()"
+			],
+			[
+				"Nu",
+				"Nueva_Ventana()"
+			],
+			[
+				"movi",
+				"movimiento"
+			],
+			[
+				"V",
+				"Ventana_Movible_stop"
+			],
+			[
+				"venta",
+				"ventana_movible〔variable〕"
+			],
+			[
+				"movmi",
+				"movimiento_boolean"
+			],
+			[
+				"mov",
+				"movimiento"
+			],
+			[
+				"ventana",
+				"ventana_movible"
+			],
+			[
+				"w",
+				"window"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"Nueva",
+				"Nueva_Ventana"
+			],
+			[
+				"Num",
+				"Numero_Introducido"
+			],
+			[
+				"pA",
+				"parseInt(string, radix?)"
+			],
+			[
+				"Numero",
+				"Numero_Introducido"
+			],
+			[
+				"Arra",
+				"Array_Numeros"
+			],
+			[
+				"Array",
+				"Array_Nombres\t[]"
+			],
+			[
+				"Arr",
+				"Array_Nombres"
+			],
+			[
+				"A",
+				"Array_Nombres"
+			],
+			[
+				"Nom",
+				"Nombres"
+			],
+			[
+				"C",
+				"Cuenta_de_Nombres\t(Practica1.1_Ejercicio_6-Arnold_Ccari_Villalta.JS)"
+			],
+			[
+				"con",
+				"contraseña\t(?)"
+			],
+			[
+				"St",
+				"String(value)"
+			],
+			[
+				"pa",
+				"parseInt(string, radix?)"
+			],
+			[
+				"sum",
+				"suma\t(Practica1.1_Ejercicio_5-Arnold_Ccari_Villalta.JS)"
+			],
+			[
+				"var",
+				"variable_Cadena"
+			],
+			[
+				"su",
+				"suma_total\t(Practica1.1_Ejercicio_5-Arnold_Ccari_Villalta.JS)"
+			],
+			[
+				"P",
+				"Practica1.1_Ejercicio_5-Arnold_Ccari_Villalta.JS"
+			],
+			[
+				"mes",
+				"mes_actual"
+			],
+			[
+				"if",
+				"if\tif"
+			],
+			[
+				"b",
+				"body\t(Practica1.1_Ejercicio_3-Arnold_Ccari_Villalta.html)"
+			],
+			[
+				"edad",
+				"edad_real()"
+			],
+			[
+				"E",
+				"Ejercicio_Pregunta\t(Practica1.1_Ejercicio_2-Arnold_Ccari_Villalta.JS)"
+			],
+			[
+				"F",
+				"Funcion_Hora(pregunta)"
+			],
+			[
+				"i",
+				"innerHTML"
+			],
+			[
+				"getmi",
+				"getMinutes()"
+			],
+			[
+				"1_Ejercicio_1-",
+				"Practica1.1_Ejercicio_1-Arnold_Ccari_Villalta.JS"
+			],
+			[
+				"1-",
+				"Practica1.1_Ejercicio_1-Arnold_Ccari_Villalta.JS"
+			],
+			[
+				"confirm",
+				"confirm〔function〕"
+			],
+			[
+				"man",
+				"manzanas〔variable〕"
+			],
+			[
+				"Par",
+				"Practica_2_DOM.js"
+			],
+			[
+				"Practca",
+				"Practica DOM 2/"
+			],
+			[
+				"Practica",
+				"Practica 2 DOM.js"
+			],
+			[
+				"strin",
+				"string_tr\t(str)"
+			],
+			[
+				"str",
+				"string_td\t(str)"
+			],
+			[
+				"stri",
+				"string_tr\t(str)"
+			],
+			[
+				"string",
+				"string_td\t(str)"
+			],
+			[
+				"casill",
+				"casillas2()"
+			],
+			[
+				"for_",
+				"for_secundario"
+			],
+			[
+				"coche",
+				"coche_1_a_JSON〔variable〕"
+			],
+			[
+				"coche_1",
+				"coche_1_a_JSON〔variable〕"
+			],
+			[
+				"coc",
+				"coche_1〔variable〕"
+			],
+			[
+				"coch",
+				"coche_1\t{}"
+			],
+			[
+				"call",
+				"call(this, args?)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 89.0,
+		"last_filter": "package control: Install Package",
+		"selected_items":
+		[
+			[
+				"package control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"enmet",
+				"Plugin Development: Convert Syntax to .sublime-syntax"
+			]
+		],
+		"width": 420.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/soraccari/Desktop/Apuntes/Apuntes_Javascript.js",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.3/Ejercicio_4/Simon_Nivel_1/Simon_Nivel_1.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.3/Ejercicio_4/Practica1.3_Ejercicio_4-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.3/Ejercicio_4/Practica1.3_Ejercicio_4-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.3/Ejercicio_4/Simon_Nivel_2/Simon_Nivel_2.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.3/Ejercicio_4/Simon_Nivel_4/Simon_Nivel_4.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.3/Ejercicio_4/Simon_Nivel_2/Simon_Nivel_1.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.3/Ejercicio_4/Simon_Nivel_1.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.3/Ejercicio_3/Practica1.3_Ejercicio_3-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.3/Ejercicio_3/Practica1.3_Ejercicio_3-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.3/Ejercicio_3/Unknown-3",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.3/Ejercicio_2/Practica1.3_Ejercicio_2-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.3/Ejercicio_1/Practica1.3_Ejercicio_1-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.3/Ejercicio_2/Practica1.3_Ejercicio_2-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.3/Ejercicio_1/Practica1.3_Ejercicio_1-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_12/Practica1.2_Ejercicio_12-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_12/Practica1.2_Ejercicio_12-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_11/Practica1.2_Ejercicio_11-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_11/Practica1.2_Ejercicio_11-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_10/Practica1.2_Ejercicio_10-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_11/Practica1.2_Ejercicio_10-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_11/Practica1.2_Ejercicio_10-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_10/Practica1.2_Ejercicio_10-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_9/Practica1.2_Ejercicio_9-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_9/Practica1.2_Ejercicio_9-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_8/Practica1.2_Ejercicio_8-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_8/Practica1.2_Ejercicio_8-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_7/Practica1.2_Ejercicio_7-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_7/Practica1.2_Ejercicio_7-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_6/Practica1.2_Ejercicio_6-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_6/Practica1.2_Ejercicio_6-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_5/Practica1.2_Ejercicio_5-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_5/Practica1.2_Ejercicio_5-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_4/Practica1.2_Ejercicio_4-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_4/Practica1.2_Ejercicio_4-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_3/Practica1.2_Ejercicio_3-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_3/Practica1.2_Ejercicio_3-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_2/Practica1.2_Ejercicio_2-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_3/Practica1.2_Ejercicio_2-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_2/Practica1.2_Ejercicio_2-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_1/Practica1.2_Ejercicio_1-Arnold_Ccari_Villalta.html ",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.2 /Ejercicio_1/Practica1.2_Ejercicio_1-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_15/Practica1.1_Ejercicio_15-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_15/Practica1.1_Ejercicio_15-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_14/Practica1.1_Ejercicio_14-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_14/Practica1.1_Ejercicio_14-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_13/Practica1.1_Ejercicio_13-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_13/Practica1.1_Ejercicio_13-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_11/Practica1.1_Ejercicio_11-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_12/Practica1.1_Ejercicio_12-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_12/Practica1.1_Ejercicio_12-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_10/Practica1.1_Ejercicio_10-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_11/Practica1.1_Ejercicio_11-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_8/Practica1.1_Ejercicio_8-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_10/Practica1.1_Ejercicio_10-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_9/Practica1.1_Ejercicio_9-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_9/Practica1.1_Ejercicio_9-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_8/Practica1.1_Ejercicio_8-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_6/Practica1.1_Ejercicio_6-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_6/Practica1.1_Ejercicio_6-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_7/Practica1.1_Ejercicio_7-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_7/Practica1.1_Ejercicio_7-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_5/Practica1.1_Ejercicio_5-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_5/Practica1.1_Ejercicio_5-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_4/Practica1.1_Ejercicio_4-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_4/Practica1.1_Ejercicio_4-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_3/Practica1.1_Ejercicio_3-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_3/Practica1.1_Ejercicio_3-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_2/Practica1.1_Ejercicio_2-Arnold_Ccari_Villalta.html",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_2/Practica1.1_Ejercicio_2-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_2/Practica1.1_Ejercicio_2-Arnold_Ccari_Villalta.html ",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_1/Practica1.1_Ejercicio_1-Arnold_Ccari_Villalta.html ",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_2/Practica1.1_Ejercicio_1-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_2/Practica1.2_Ejercicio_2-Arnold_Ccari_Villalta.html ",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Ejercicio_1/Practica1.1_Ejercicio_1-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Practica1.1_Ejercicio_1-Arnold_Ccari_Villalta.html ",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Practica1.1_Ejercicio_2-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Practica1.2_Ejercicio_2-Arnold_Ccari_Villalta.html ",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Practica1.1-Arnold_Ccari_Villalta.JS",
+		"/Users/soraccari/Desktop/Jordi/UF1/Practica1.1/Practica1.1-Arnold_Ccari_Villalta.html ",
+		"/Users/soraccari/Doxygen/Doxygen_out/latex/refman.tex",
+		"/Users/soraccari/Downloads/colors.sql",
+		"/Users/soraccari/Downloads/examen_materials/Exam1.html",
+		"/Users/soraccari/Downloads/examen_materials/jquery.min.js",
+		"/Users/soraccari/Desktop/Apuntes/Apuntes_SQL.html",
+		"/Applications/XAMPP/xamppfiles/phpmyadmin/libraries/session.inc.php",
+		"/Users/soraccari/Downloads/escuela-symfony/vendor/jdorn/sql-formatter/tests/sql.sql",
+		"/Users/soraccari/Desktop/Apuntes/Apuntes_jquery/index.html",
+		"/Users/soraccari/Desktop/Apuntes/Apuntes_jquery/js_10/scripts.js",
+		"/Users/soraccari/Desktop/Apuntes/Apuntes_jquery/js_13/scripts.js",
+		"/Users/soraccari/Desktop/Apuntes/Apuntes_jquery/js_14/scripts.js",
+		"/Users/soraccari/Desktop/prueba Javascript/Apuntes_jquery/index.html",
+		"/Users/soraccari/Desktop/prueba Javascript/Apuntes_jquery/js_07/scripts.js",
+		"/Users/soraccari/Desktop/prueba Javascript/Apuntes_jquery/js_06/scripts.js",
+		"/Users/soraccari/Desktop/prueba Javascript/Apuntes_jquery/css/estilos.css",
+		"/Users/soraccari/Desktop/Apuntes/Apuntes_Diseño(Guia de estilos).html",
+		"/Users/soraccari/Desktop/prueba Javascript/Apuntes_jquery/js_05/scripts.js",
+		"/Users/soraccari/Desktop/prueba Javascript/Apuntes_Javascript.js",
+		"/Users/soraccari/Desktop/prueba Javascript/Apuntes_Javascript.html",
+		"/Users/soraccari/Desktop/prueba Javascript/Apuntes_jquery/js_04/scripts.js",
+		"/Users/soraccari/Desktop/prueba Javascript/Apuntes_jquery/js_02/scripts.js",
+		"/Users/soraccari/Desktop/prueba Javascript/Apuntes_jquery/js_03/scripts.js",
+		"/Users/soraccari/Downloads/Segunda Parte copy/css/estilos.css",
+		"/Users/soraccari/Downloads/Segunda Parte copy/index.html",
+		"/Users/soraccari/Downloads/Segunda Parte copy/jquery-1.12.0.min.js",
+		"/Users/soraccari/Desktop/prueba Javascript/untitled.js",
+		"/Users/soraccari/Desktop/prueba Javascript/untitled.html",
+		"/Users/soraccari/Pictures/Practica DOM 2/Practica 2 DOM.html",
+		"/Users/soraccari/Pictures/Practica DOM 2/Practica_2_DOM.js",
+		"/Users/soraccari/Pictures/Practica 2 DOM.html",
+		"/Users/soraccari/Pictures/Practica 2 DOM.js",
+		"/Users/soraccari/Pictures/examen 17-18/exercici 1/1.js",
+		"/Users/soraccari/Pictures/examen 17-18/exercici 1/1.html",
+		"/Users/soraccari/Pictures/examen 17-18/exercici 1/jquery.min.js",
+		"/Users/soraccari/Desktop/prueba Javascript/examen_jquery.js",
+		"/Users/soraccari/Desktop/prueba Javascript/examen_jquery.html",
+		"/Users/soraccari/Documents/practicaBootstrap-imatges.eu/designer/HTML/carmen proyecto pequeño.css",
+		"/Users/soraccari/Documents/practicaBootstrap-imatges.eu/designer/HTML/carmen proyecto pequeño.html",
+		"/Users/soraccari/Documents/practicaBootstrap-imatges.eu/designer/carmen proyecto pequeño.html",
+		"/Users/soraccari/Documents/Prueba Bootstrap.html",
+		"/Users/soraccari/Desktop/Ejercicio 3 Carmen/Nueva_practica_Carme_1.css",
+		"/Users/soraccari/Desktop/Ejercicio 3 Carmen/Nueva_practica_Carme_1.html",
+		"/Users/soraccari/Desktop/Ejercicio 3 Carmen/Forma1.css",
+		"/Users/soraccari/Desktop/Ejercicio 3 Carmen/Forma1.html",
+		"/Users/soraccari/Desktop/Practica_1 UF2 jordi/Practica_2.html",
+		"/Users/soraccari/Documents/Examen PHP",
+		"/Users/soraccari/Desktop/Practica_1 UF2 jordi/Practica_2.js",
+		"/Users/soraccari/Desktop/Practica_1 UF2 jordi/Practica_1.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 114.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "Practica1.3_Ejercicio_4-Arnold_Ccari_Villalta.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

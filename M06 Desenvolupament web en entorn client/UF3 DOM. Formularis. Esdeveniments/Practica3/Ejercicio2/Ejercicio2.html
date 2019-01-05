@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio2</title>
+    <script src="Ejercicio2.js" type="application/javascript"></script>
+</head>
+
+<style>
+
+textarea{
+
+    background-color: lightgray;
+
+}
+
+
+div:not(div:last-child){
+
+    float: left;
+
+}
+
+
+
+
+div:last-child * {
+
+    margin: 2%;
+
+}
+
+
+</style>
+
+
+<body>
+
+<form name="Formulario_Grupo_A" method="post" onsubmit="return false">
+
+
+    <div>
+
+
+        <b>Grupo 1</b> <br>
+
+            <label for="Opcion_A_Grupo_1"> </label> <input id="Opcion_A_Grupo_1" type="radio" name="Opciones" value="Opcion_A"> Opcion_A <br>
+
+            <label for="Opcion_B_Grupo_1"> </label> <input id="Opcion_B_Grupo_1" type="radio" name="Opciones" value="Opcion_B"> Opcion_B <br>
+
+            <label for="Opcion_C_Grupo_1"> </label> <input id="Opcion_C_Grupo_1" type="radio" name="Opciones" value="Opcion_C"> Opcion_C <br>
+
+            <label for="Opcion_D_Grupo_1"> </label> <input id="Opcion_D_Grupo_1" type="radio" name="Opciones" value="Opcion_D"> Opcion_D <br>
+
+
+
+    </div>
+
+</form>
+
+<form name="Formulario_Grupo_B" method="post" onsubmit="return false">
+
+
+    <div>
+
+
+
+            <b> Grupo 2</b> <br>
+
+            <label for="Opcion_A_Grupo_2"> </label> <input id="Opcion_A_Grupo_2" type="radio" name="Opciones" value="Opcion_A"> Opcion_A <br>
+
+            <label for="Opcion_B_Grupo_2"> </label> <input id="Opcion_B_Grupo_2" type="radio" name="Opciones" value="Opcion_B"> Opcion_B <br>
+
+            <label for="Opcion_C_Grupo_2"> </label> <input id="Opcion_C_Grupo_2" type="radio" name="Opciones" value="Opcion_C"> Opcion_C <br>
+
+
+
+
+    </div>
+
+</form>
+
+
+    <div>
+
+        <input name="Avaluar" type="submit" onclick="Avaluacion()"> <br>
+
+        <b> Grupo A </b> <br>
+
+        <textarea readonly name="Resultados_Grupo_A" id="res_A" cols="20" rows="1"></textarea> <br>
+
+        <b> Grupo B </b> <br>
+
+        <textarea readonly name="Resultados_Grupo_B" id="res_B" cols="20" rows="1"></textarea> <br>
+
+
+
+    </div>
+
+
+
+
+</body>
+</html>

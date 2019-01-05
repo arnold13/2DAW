@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Ejercicio4.js" type="application/javascript" ></script>
+    <style>
+
+    div * {
+
+        margin: 5px;
+
+    }
+
+    input[type = text]{
+
+        background-color: lightgray;
+
+    }
+
+    </style>
+</head>
+<body>
+
+<div>
+
+<label for="sel_provincias"> Indiqui la seva provincia</label>
+
+    <select name="Provincias" id="sel_provincias" onchange="info_provincia()">
+
+
+        <option value="02 albacete" >albacete</option>
+        <option value="50 A Coruña">A Coruña</option>
+        <option value="01 Àlava">Àlava</option>
+        <option value="50 Zaragoza">Zaragoza</option>
+        <option value="49 Zamora">Zamora</option>
+
+    </select>
+
+<br>
+
+<label for="codigo_postal">El codi postal de la provincia es: </label>
+
+<input type="text" id="codigo_postal" readonly>
+
+<br>
+
+<label for="nombre_provincia">La provincia es: </label>
+
+<input type="text" id="nombre_provincia"  readonly>
+
+</div>
+
+<p id="demo"></p>
+
+</body>
+</html>

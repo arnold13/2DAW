@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+    <script src="Ejercicio3.js" type="application/javascript"></script>
+    <style>
+
+        div * {
+
+            margin: 5px;
+
+        }
+
+
+        #demo {
+
+            margin-top: 20%;
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div>
+
+    <b>Pregunta: Comprova que fa el següent patró? </b><br>
+
+    <input type="text" value="/(?:\d{3}|\(\d{3}\))([-\/\.])\d{3}\1\d{4}/;" readonly> <br>
+
+    <textarea name=""  cols="30" rows="15" readonly> Verifica la sintaxis de los numeros telefonicos de america del norte,un ejemplo de uno esos numeros seria este:
+
+        (291)/647/9058;
+
+        Sobre como mejorarla, no creo poder mejorarla ya que no se mucho de numeros de norte america,aunque interpreta bien los numeros, como mucho podria poner una condicion dentro del regex para aceptar tambien numero internacionales,pero prefiero no tocar aquel regex.
+    </textarea><br><br>
+
+    <b>Com el milloraries, i adaptaries per al nostre país  si fos possible? </b><br><br>
+
+    <label for="verificar_tef_esp"> A nivel local seria algo asin: </label><br><br>
+
+    <textarea id="verificar_tef_esp" name="" rows="1" cols="10" readonly>^[9,6]\d{8}</textarea><br><br>
+
+    <label for="verificar_tef_internacional">Y para nivel internacional</label><br><br>
+
+    <textarea id="verificar_tef_internacional" name=""  rows="2"  cols="40"  readonly>(\+34|0034|34)?[ -]*(6|9|7)[ -]*([0-9][ -]*){8}</textarea>
+
+
+</div>
+
+
+
+<p id="demo"></p>
+
+</body>
+</html>

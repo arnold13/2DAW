@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Ejercicio2.js" type="application/javascript"></script>
+    <style>
+
+        div * {
+
+            margin: 5px;
+
+        }
+
+
+        input[type = "button"]{
+
+            margin-left: 20%;
+
+        }
+
+        textarea{
+
+            margin-left: 10%;
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div>
+
+    <label for="area_text"></label><textarea name="Texto_Area" id="area_text" cols="60" rows="20"></textarea><br>
+
+    <label for="Palabra_a_buscar"> Cerca: </label> <input type="text" id="Palabra_a_buscar">
+
+    <label for="Checkbox_palabras_completas"> Cerca unicament paraules completes </label> <input type="checkbox" id="Checkbox_palabras_completas">
+    <br>
+
+    <input type="button" value="Cerca Coincidencies" onclick="busqueda_de_palabras()">
+
+    <p id="demo"></p>
+
+
+</div>
+
+
+</body>
+</html>

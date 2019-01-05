@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript" src="Ejercicio3.js"></script>
+    <style>
+
+    form * {
+
+        margin: 5px;
+
+    }
+
+    </style>
+
+</head>
+<body>
+
+<form name="Formulario_Provincias" onsubmit="return false" >
+
+    <label for="Nombre"> Introduce un nombre </label> <input type="text" id="Nombre"><br>
+
+    <label for="Provincia"> Provincia </label> <input type="text" id="Provincia"><br>
+
+    <input type="submit" name="Enviar" value="Enviar" onclick="Validacion()">
+
+    <input type="button" name="Borrar_camps" value="Borrar camps" onclick="Borrar_campos()"> <br>
+
+    <input type="button" name="Hab_Des_provincia" value="Habilitar/Deshabilitar provincia" onclick="switch_provincia()" >
+
+
+
+</form>
+
+
+</body>
+</html>
