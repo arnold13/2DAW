@@ -1,3 +1,6 @@
+
+herramientas_cookie(); // Inicializando herramientas
+
 // Exc3: Defineix l'estructura d'un objecte que emmagatzema una factura. Les factures són formades per la següent informació:
 
 
@@ -41,7 +44,7 @@ function Factura(){
 
     function Persona(Nombre,telefono,direccion) {
 
-        this.Nombre = Nombre;
+        this.Nombre = Nombre || "no definido";
 
         this.telefono = telefono;
 
@@ -285,48 +288,241 @@ function Factura(){
 
     let self = this;
 
-         function desglosar_factura() {
 
-             document.getElementById("Info_factura").innerHTML += self.get_Persona_Fisica();
 
-             document.getElementById("Info_factura").innerHTML += self.get_Persona_Juridica();
+        function disparadores(){
 
-             document.getElementById("Info_factura").innerHTML += self.get_articulos();
+            document.getElementById("desglose").addEventListener("click", function () {
 
+                console.log({self});
+
+                document.getElementById("Info_factura").innerHTML = self.get_Persona_Fisica()+self.get_Persona_Juridica()+self.get_articulos();
+
+
+            },false);
+
+            document.getElementById("Resetear_datos").addEventListener("click",function () {
+
+                delete self.forma_de_pagamiento;
+                delete self.Persona_Fisica;
+                delete self.Persona_Juridica;
+                delete self.Articulo;
+                delete self.tipo_de_iva;
+
+                console.log(self);
+
+
+
+             },false)
+
+
+            document.getElementById("Guardar_datos").addEventListener("click", function () {
+
+                persistencia_de_datos(self);
+
+            },false);
+
+
+
+
+            document.getElementById("Recuperar_datos_por_cookie").addEventListener("click", function () {
+
+                obtener_datos_por_cookie();
+
+                console.log(window.factura_cache);
+
+            },false);
+
+
+            document.getElementById("Recuperar_datos_por_localstorage").addEventListener("click", function () {
+
+                obtener_datos_por_localstorage();
+
+
+            },false);
+
+
+            document.getElementById("Recuperar_datos_por_sessionstorage").addEventListener("click", function () {
+
+                obtener_datos_por_sessionstorage();
+
+
+            },false);
+}
+
+
+    if(document.readyState !== "complete"){ // Si la pagina html NO se termino de cargar haz..
+
+
+        window.addEventListener("load",function () {
+
+            herramientas_cookie();
+
+            disparadores();
+
+        },false);
+
+    }else{
+
+        disparadores();
+
+
+
+    }
+
+    //</editor-fold>
+
+
+} // Final factura
+
+
+//<editor-fold desc="Herramientos para la creacion de la cookie">
+function herramientas_cookie(){
+
+    function setCookie (name,value,days) {
+        let expires = "";
+        if (days) {
+            let date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
         }
+        document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+    }
+
+    herramientas_cookie.setCookie = setCookie;
+
+    function getCookie(name) {
+        let nameEQ = name + "=";
+        let ca = document.cookie.split(';');
+        for(let i=0;i < ca.length;i++) {
+            let c = ca[i];
+            while (c.charAt(0)===' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+
+    herramientas_cookie.getCookie = getCookie;
 
 
-    window.onload = function(){
+    function eraseCookie(name) {
+        document.cookie = name+'=; Max-Age=-99999999;';
+    }
 
-        document.getElementById("desglose").addEventListener("click", desglosar_factura,false);
+    herramientas_cookie.eraseCookie = eraseCookie;
 
 
+    function listCookies() {
+        let theCookies = document.cookie.split(';');
+        let aString = '';
+        for (let i = 1 ; i <= theCookies.length; i++) {
+            aString += i + ' ' + theCookies[i-1] + "\n";
+        }
+        return aString;
+    }
 
-    };
+    herramientas_cookie.listCookies = listCookies;
+
+
+}
+//</editor-fold>
+
+//<editor-fold desc="Persistencia : Guardar datos en Cookie,local y session">
+let persistencia_de_datos = function(constructor){
+
+
+    //<editor-fold desc="Guardando_en_localstorage">
+
+    let persistencia_navegador_localstorage = JSON.stringify(constructor);
+
+    localStorage.setItem("factura",persistencia_navegador_localstorage);
+
+
+    //</editor-fold>
+
+    //<editor-fold desc="Guardando en sessionstorage">
+
+    let persistencia_navegador_sessionstorage = JSON.stringify(constructor);
+
+    sessionStorage.setItem("factura",persistencia_navegador_sessionstorage);
+
+
+    //</editor-fold>
+
+    //<editor-fold desc="Guardando en una cookie">
+
+
+    herramientas_cookie.setCookie("factura",  JSON.stringify(constructor), 30);
+
+
     //</editor-fold>
 
 
 
+};
+//</editor-fold>
+
+//<editor-fold desc="Persistencia: Recuperar datos en Cookie,local y sesion">
+let obtener_datos_por_cookie = function () {
+
+    //<editor-fold desc="Obtencion de datos mediante cookies">
+
+    let copia_factura_cache = JSON.parse(herramientas_cookie.getCookie("factura"));
+
+    let factura_cache = Object.assign(new Factura,copia_factura_cache);
+
+    return cliente = factura_cache; // Para poder ver el objeto en la ventana
 
 
+    //</editor-fold>
 
 
-}
+};
+
+let obtener_datos_por_localstorage = function(){
+
+    //<editor-fold desc="Recuperar datos por localstorage">
+    let copia_factura_cache = JSON.parse(localStorage.getItem("factura"));
+
+    let factura_cache = Object.assign(new Factura,copia_factura_cache);
+
+    return cliente = factura_cache; // Para poder ver el objeto en la ventana
+    //</editor-fold>
+
+};
+
+
+let obtener_datos_por_sessionstorage = function(){
+
+    //<editor-fold desc="Recuperar datos por sessionstorage">
+    let copia_factura_cache = JSON.parse(sessionStorage.getItem("factura"));
+
+    let factura_cache = Object.assign(new Factura,copia_factura_cache);
+
+    return cliente = factura_cache; // Para poder ver el objeto en la ventana
+    //</editor-fold>
+
+};
+//</editor-fold>
+
 
 
 //<editor-fold desc="Ejecutando el codigo">
 // Ejecutando el Codigo;
 
 
-let cliente_1 = new Factura();
+let cliente = new Factura();
 
-cliente_1.set_Persona_Fisica("Ferran","672245123","Carrer colegi","J3411294X","Martorell");
+cliente.set_Persona_Fisica("Ferran","672245123","Carrer colegi","J3411294X","Martorell");
 
-cliente_1.set_Persona_Juridica("Nosequeponer.SL","612412341","Calle numancia","X1241231X");
+cliente.set_Persona_Juridica("Nosequeponer.SL","612412341","Calle numancia","X1241231X");
 
-cliente_1.set_articulos("Boligrafo",1,2);
+cliente.set_articulos("Boligrafo",1,2);
 
 
-cliente_1.get_Persona_Juridica();
+
+
+
+
 //</editor-fold>
 

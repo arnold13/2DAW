@@ -1,9 +1,7 @@
 
-// Atencion: El ejercicio no pide nada de insertar datos, solo diseña.
+// Al terminal la pagina cargara el JS.
 
-window.onload = function () { // Al terminal la pagina cargara el JS.
-
-    let articulo = function (codigo, descripcion, precio) {
+    let articulo = function (codigo,descripcion,precio) {
 
         //<editor-fold desc="Propiedades del prototipo">
         let self = this;
@@ -13,9 +11,8 @@ window.onload = function () { // Al terminal la pagina cargara el JS.
         this.descripcion = descripcion;
 
         this.precio = precio + " €";
-        //</editor-fold>
 
-        //<editor-fold desc="Metodos propios de articulo">
+
         this.calculo_iva = function () {
 
             return precio / 100 * 21 + " €";
@@ -30,39 +27,59 @@ window.onload = function () { // Al terminal la pagina cargara el JS.
         //</editor-fold>
 
         //<editor-fold desc="Lanzadores de eventos">
-        document.getElementById("b_bruto").addEventListener("click", function () {
 
-            document.getElementById("Preu_brut").value = self.precio;
+        window.onload = function () {
 
-        }, false);
+            document.getElementById("b_bruto").addEventListener("click", function () {
 
+                document.getElementById("Preu_brut").value = self.precio;
 
-        document.getElementById("b_iva").addEventListener("click", function () {
-
-            document.getElementById("Iva").value = self.calculo_iva();
-
-        }, false);
+            }, false);
 
 
-        document.getElementById("b_total").addEventListener("click", function () {
+            document.getElementById("b_iva").addEventListener("click", function () {
 
-            document.getElementById("Import_total").value = self.calculo_total();
+                document.getElementById("Iva").value = self.calculo_iva();
 
-        }, false);
+            }, false);
+
+
+            document.getElementById("b_total").addEventListener("click", function () {
+
+                document.getElementById("Import_total").value = self.calculo_total();
+
+            }, false);
+
+
+        };
         //</editor-fold>
-
-
     };
+
+
+
 
 
     //<editor-fold desc="Probando el codigo">
 
-    let boligrafo = new articulo("123", "Sirve para escribir", 1);
+    let boligrafo = new articulo("123","Sirve para escribir",1);
+
+    console.log(boligrafo.codi);
+
+    console.log(boligrafo.descripcion);
+
+    console.log(boligrafo.precio);
+
+    console.log(boligrafo.calculo_iva());
+
+    console.log(boligrafo.calculo_total());
 
     //</editor-fold>
 
 
-};
+
+
+
+
 
 
 
