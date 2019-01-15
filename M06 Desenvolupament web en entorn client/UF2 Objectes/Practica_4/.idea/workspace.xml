@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32f3893e-2ce4-4ab8-bc92-fb3655ac2dc0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Practica_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_3/Ejercicio_1/Ejercicio_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_3/Ejercicio_1/Ejercicio_1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio_2/Ejercicio_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio_2/Ejercicio_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio_2/Ejercicio_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio_2/Ejercicio_2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio_3/Ejercicio_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio_3/Ejercicio_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica_5/.idea/Practica_5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica_5/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica_5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica_5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica_5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica_5/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica_5/Ejercicio_unico.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practica_5/Ejercicio_unico.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicio_3/Ejercicio_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio_3/Ejercicio_3.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,48 +23,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="16" lean-forward="true" selection-end-line="45" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ejercicio_2/Ejercicio_2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-end-line="24" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ejercicio_2/Ejercicio_2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="35" column="27" lean-forward="true" selection-end-line="296" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ejercicio_3/Ejercicio_3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="7" lean-forward="true" selection-end-line="31" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ejercicio_3/Ejercicio_3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3308">
-              <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+            <state relative-caret-position="6465">
+              <caret line="431" column="46" selection-start-line="431" selection-start-column="46" selection-end-line="431" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -70,8 +36,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="128" column="7" lean-forward="true" selection-start-line="128" selection-start-column="7" selection-end-line="128" selection-end-column="52" />
+            <state relative-caret-position="4575">
+              <caret line="305" column="2" selection-start-line="305" selection-start-column="2" selection-end-line="305" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ejercicio_3/Ejercicio_3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -97,8 +72,8 @@
         <option value="$PROJECT_DIR$/Ejercicio_2/Ejercicio_2.html" />
         <option value="$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.html" />
         <option value="$PROJECT_DIR$/Ejercicio_3/Ejercicio_3.html" />
-        <option value="$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.js" />
         <option value="$PROJECT_DIR$/Ejercicio_3/Ejercicio_3.js" />
+        <option value="$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.js" />
       </list>
     </option>
   </component>
@@ -174,12 +149,16 @@
       <workItem from="1547377803010" duration="9876000" />
       <workItem from="1547405695032" duration="9892000" />
       <workItem from="1547421227013" duration="497000" />
-      <workItem from="1547421962609" duration="1518000" />
+      <workItem from="1547421962609" duration="1629000" />
+      <workItem from="1547463961546" duration="1955000" />
+      <workItem from="1547474127785" duration="590000" />
+      <workItem from="1547480676601" duration="1570000" />
+      <workItem from="1547490416310" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45526000" />
+    <option name="totallyTimeSpent" value="49763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -231,7 +210,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Ejercicio_3/Ejercicio_3.js</url>
-          <line>202</line>
+          <line>203</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -245,34 +224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="16" lean-forward="true" selection-end-line="45" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="128" column="7" lean-forward="true" selection-start-line="128" selection-start-column="7" selection-end-line="128" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ejercicio_3/Ejercicio_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="7" lean-forward="true" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ejercicio_3/Ejercicio_3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3308">
-          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -280,17 +231,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ejercicio_2/Ejercicio_2.html">
+    <entry file="file://$PROJECT_DIR$/Ejercicio_2/Ejercicio_2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="459">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ejercicio_2/Ejercicio_2.js">
+    <entry file="file://$PROJECT_DIR$/Ejercicio_2/Ejercicio_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="35" column="27" lean-forward="true" selection-end-line="296" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="16" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ejercicio_3/Ejercicio_3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6465">
+          <caret line="431" column="46" selection-start-line="431" selection-start-column="46" selection-end-line="431" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4575">
+          <caret line="305" column="2" selection-start-line="305" selection-start-column="2" selection-end-line="305" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ejercicio_3/Ejercicio_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="28" />
         </state>
       </provider>
     </entry>

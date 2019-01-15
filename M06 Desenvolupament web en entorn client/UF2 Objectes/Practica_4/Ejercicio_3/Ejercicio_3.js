@@ -50,6 +50,7 @@ function Factura(){
 
         this.direccion = direccion;
 
+
     }
 
     //</editor-fold>
@@ -509,6 +510,11 @@ let obtener_datos_por_sessionstorage = function(){
 
 //<editor-fold desc="Ejecutando el codigo">
 // Ejecutando el Codigo;
+
+
+
+
+
 
 
 let cliente = new Factura();
