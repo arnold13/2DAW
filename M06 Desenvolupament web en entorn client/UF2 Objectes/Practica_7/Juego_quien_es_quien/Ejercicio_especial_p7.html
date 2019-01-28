@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego: Quien es quien?</title>
+    <script src="Ejercicio_especial_p7.js"></script>
+</head>
+<body>
+
+
+<table id="personajes_juego">
+    <tr>
+        <td><img src="pr6_imatges/alba.png" alt="alba" name="alba"></td>
+        <td><img src="pr6_imatges/antonio.png" alt="antonio" name="antonio"></td>
+        <td><img src="pr6_imatges/carlos.png" alt="carlos" name="carlos"></td>
+        <td><img src="pr6_imatges/carmen.png" alt="carmen" name="carmen"></td>
+        <td><img src="pr6_imatges/cristina.png" alt="cristina" name="cristina"></td>
+        <td><img src="pr6_imatges/daniel.png"  alt="daniel" name="daniel"/></td>
+        <td><img src="pr6_imatges/elena.png" alt="elena" name="elena"/></td>
+        <td><img src="pr6_imatges/elisa.png" alt="elisa" name="elisa"/></td>
+        <td><img src="pr6_imatges/irene.png" alt="irena" name="irene"/></td>
+        <td><img src="pr6_imatges/ivan.png"  alt="ivan" name="ivan"/></td>
+        <td><img src="pr6_imatges/jorge.png" alt="jorge" name="jorge"/></td>
+        <td><img src="pr6_imatges/juan.png"  alt="juan" name="juan"/></td>
+        <td><img src="pr6_imatges/julia.png" alt="julia" name="julia"/></td>
+        <td><img src="pr6_imatges/lucas.png" alt="lucas" name="lucas"/></td>
+    </tr>
+
+    <tr>
+        <td><img src="pr6_imatges/lucia.png" alt="lucia" name="lucia"/></td>
+        <td><img src="pr6_imatges/luis.png"  alt="luis" name="luis"/></td>
+        <td><img src="pr6_imatges/manolo.png" alt="manolo" name="manolo"/></td>
+        <td><img src="pr6_imatges/mar.png"   alt="mar" name="mar"/></td>
+        <td><img src="pr6_imatges/maria.png" alt="maria" name="maria"/></td>
+        <td><img src="pr6_imatges/noelia.png" alt="noelia" name="noelia"/></td>
+        <td><img src="pr6_imatges/pablo.png" alt="pablo" name="pablo"/></td>
+        <td><img src="pr6_imatges/paco.png"  alt="paco" name="paco"/></td>
+        <td><img src="pr6_imatges/paula.png" alt="paula" name="paula"/></td>
+        <td><img src="pr6_imatges/paz.png"   alt="paz" name="paz"/></td>
+        <td><img src="pr6_imatges/rafa.png"  alt="rafa" name="rafa"/></td>
+        <td><img src="pr6_imatges/rosa.png"  alt="rosa" name="rosa"/></td>
+        <td><img src="pr6_imatges/tatiana.png" alt="tatiana" name="tatiana"/></td>
+        <td><img src="pr6_imatges/tomas.png" alt="tomas" name="tomas"/></td>
+    </tr>
+</table>
+
+<div align="center" id="opcions_joc">
+
+    <input type="button" value="Comenzar" onclick="juego()">
+
+    <input type="button" value="Me rindo!" onclick="rendirse()">
+
+</div>
+
+<br><br>
+
+<div align="center" style="border:1px solid black;">
+
+    <label for="pelo_sel">Pelo: </label>
+    <select name="pelo" id="pelo_sel">
+        <option value="Escoger_color">Tria color</option>
+        <option value="rojo">Rojo</option>
+        <option value="azul">Azul</option>
+        <option value="verde">Verde</option>
+        <option value="marron">Marron</option>
+        <option value="negro">Negro</option>
+        <option value="blanco">Blanco</option>
+        <option value="naranja">Naranja</option>
+
+
+    </select>
+
+    <label for="ropa_sel">Ropa: </label>
+
+    <select name="ropa" id="ropa_sel">
+        <option value="Escoger_Color">Tria color</option>
+        <option value="rojo">Rojo</option>
+        <option value="negro">Negro</option>
+        <option value="azul">Azul</option>
+        <option value="verde">Verde</option>
+        <option value="amarillo">Amarillo</option>
+        <option value="gris">Gris</option>
+        <option value="rosa">Rosa</option>
+        <option value="marron">Marron</option>
+
+
+
+
+    </select>
+
+    <label for="barba_sel">Barba: </label>
+
+    <select name="barba" id="barba_sel">
+        <option value="Escoger_Barba">Tipo de barba</option>
+        <option value="ninguna">Ninguna</option>
+        <option value="larga">Larga</option>
+        <option value="corta">Corta</option>
+    </select>
+
+
+    <label for="color_ojos">Color ojos: </label>
+    <select name="color_de_ojos" id="color_ojos">
+        <option value="Escoger_color_de_ojo">Color de ojos</option>
+        <option value="azul">Azul</option>
+        <option value="negro">Negro</option>
+        <option value="marron">Marron</option>
+        <option value="gafas">gafas</option>
+    </select>
+
+    <label for="sexo">Sexo: </label>
+    <select name="sexo" id="sexo">
+        <option value="Escoger_sexo">Escoger sexo</option>
+        <option value="Hombre">Hombre</option>
+        <option value="Mujer">Mujer</option>
+    </select>
+
+    <label for="edad">Edad: </label>
+    <select name="edad" id="edad">
+        <option value="Escoger_edad">Escoger Edad</option>
+        <option value="niño">niño</option>
+        <option value="joven">joven</option>
+        <option value="adulto">adulto</option>
+        <option value="anciano">anciano</option>
+    </select>
+
+</div>
+
+<br><br>
+<div align="center"><img src="pr6_imatges/tots.jpg" alt=""></div>
+
+</body>
+</html>
