@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio_3_JQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="Ejercicio_3.js" type="application/javascript"></script>
+</head>
+<body>
+
+<div>
+
+    <form method="post" onsubmit="return false" >
+
+        <input type="text" value="Texto por defecto">
+        <br><br>
+        <input type="submit" value="Enviar Formulario" onclick="return $('div').append('<p>'+$('div input:text').val()+'</p>')">
+
+    </form>
+
+</div>
+
+</body>
+</html>
