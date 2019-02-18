@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio_1 : Puzzle</title>
+    <script src="../material_puzzle/jquery-2.1.4.js"></script>
+    <script src="../material_puzzle/jquery-ui.min.js"></script>
+    <script src="../material_puzzle/jquery.ui.touch-punch.min.js"></script>
+    <script src="Ejercicio_1.js" type="application/javascript"></script>
+    <style>
+
+
+
+        body{
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 14px;
+            color: #616c84;
+            background: #ffffff;
+            line-height: 1.7em;
+            padding: 0;
+            margin: 0;
+        }
+
+        p{
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+        article{
+            width: 1020px;
+            height: 645px;
+            background: #f2f2f2;
+            margin: 40px auto 20px auto;
+            position: relative;
+            -webkit-transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+            -ms-transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+            -moz-transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+            transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+        }
+
+        .pieces{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            z-index: 100;
+            -webkit-transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+            -ms-transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+            -moz-transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+            transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+            perspective: initial;
+        }
+
+        #piece-1{
+            top: 0;
+            left: 0;
+            background: url("../material_puzzle/rafael_1.jpg");
+        }
+
+        #piece-2{
+            top: 0;left: 305px;
+            background: url("../material_puzzle/rafael_2.jpg");
+        }
+
+        #piece-3{
+            top: 0;
+            left: 610px;
+            background: url("../material_puzzle/rafael_3.jpg");
+        }
+
+        #piece-4{
+            top: 305px;
+            left: 0;
+            background: url("../material_puzzle/rafael_4.jpg");
+        }
+
+        #piece-5{
+            top: 305px;
+            left: 305px;
+            background: url("../material_puzzle/rafael_5.jpg");
+        }
+
+        #piece-6{
+            top: 305px;
+            left: 610px;
+            background: url("../material_puzzle/rafael_6.jpg");
+        }
+
+        p{
+            margin: 20px auto;
+            width: 1020px;
+            text-align: center;
+        }
+
+        .glow{
+            z-index: 101;
+            -webkit-box-shadow: 0px 0px 6px 0px #000000;
+            box-shadow: 0px 0px 6px 0px #000000;
+            transform: scale(1.1);
+        }
+
+        @-webkit-keyframes animate-guage {
+            0%   { transform: scale(1.04); }
+            50%   { transform: scale(1.06); }
+            100%  { transform: scale(1.04); }
+        }
+
+        .glow-2{ -webkit-transform: rotateX(360deg); }
+
+        @-webkit-keyframes animate-guage-2 {
+            0%   { transform: scale(1); }
+            50%   { transform: scale(1.02); }
+            100%  { transform: scale(1); }
+        }
+
+
+    </style>
+
+</head>
+<body>
+<article>
+    <div class="pieces" id="piece-1"></div>
+    <div class="pieces" id="piece-2"></div>
+    <div class="pieces" id="piece-3"></div>
+    <div class="pieces" id="piece-4"></div>
+    <div class="pieces" id="piece-5"></div>
+    <div class="pieces" id="piece-6"></div>
+</article>
+
+<p></p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script></div>
+</body>
+
+
+
+
+</html>
