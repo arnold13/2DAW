@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011d1f12-1010-4a1f-981b-3898bc1cd06c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica3.6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica3.6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jQuery-snapPuzzle-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jQuery-snapPuzzle-master/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jQuery-snapPuzzle-master/image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jQuery-snapPuzzle-master/jquery.snap-puzzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jQuery-snapPuzzle-master/jquery.snap-puzzle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jQuery-snapPuzzle-master/readme.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,24 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="102" column="45" lean-forward="true" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material_puzzle/rafael_6.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
+            <state relative-caret-position="203">
+              <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -55,6 +48,12 @@
       <find>680</find>
       <find>645</find>
       <find>'610'</find>
+      <find>pieces</find>
+      <find>//</find>
+      <find>h3</find>
+      <find>305</find>
+      <find>610</find>
+      <find>autopx</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,7 +79,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,15 +91,11 @@
               <item name="Practica3.7" type="462c0819:PsiDirectoryNode" />
               <item name="Ejercicio_1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Practica3.7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Practica3.7" type="462c0819:PsiDirectoryNode" />
-              <item name="material_puzzle" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,12 +129,14 @@
       <option name="presentableId" value="Default" />
       <updated>1550489162851</updated>
       <workItem from="1550489164261" duration="3275000" />
-      <workItem from="1550502073421" duration="377000" />
+      <workItem from="1550502073421" duration="5205000" />
+      <workItem from="1550516520349" duration="1084000" />
+      <workItem from="1550564295712" duration="626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3652000" />
+    <option name="totallyTimeSpent" value="10190000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -155,19 +151,19 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -190,26 +186,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery-snapPuzzle-master/image.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery-snapPuzzle-master/demo.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery-snapPuzzle-master/image.jpg" />
+    <entry file="file://$PROJECT_DIR$/jQuery-snapPuzzle-master/demo.html" />
     <entry file="file://$PROJECT_DIR$/material_puzzle/rafael_6.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.js">
+    <entry file="file://$PROJECT_DIR$/Ejercicio_1/Prueba app.playground/Contents.swift" />
+    <entry file="file://$PROJECT_DIR$/Ejercicio_1/Prueba app.playground/contents.xcplayground" />
+    <entry file="file://$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
+        <state relative-caret-position="250">
+          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.html">
+    <entry file="file://$PROJECT_DIR$/Ejercicio_1/Ejercicio_1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="102" column="45" lean-forward="true" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
+        <state relative-caret-position="203">
+          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
         </state>
       </provider>
     </entry>

@@ -1,8 +1,6 @@
-//  author Piers Rueb
 
 $(document).ready(function(){
 
-    //  globals
 
     var tileClicked = false;
     var firstTileClicked;
@@ -15,7 +13,6 @@ $(document).ready(function(){
     var moves = 0;
     var secs = 0;
 
-    //  shuffle the tiles
 
     function shuffleTiles(){
         if(shuffle == 1){
@@ -58,37 +55,30 @@ $(document).ready(function(){
         }, 1000);
     });
 
-    //  play the game
 
     $('.pieces').click(function(){
 
-        if(tileClicked == false){  //  if no tile is clicked
+        if(tileClicked == false){
 
-            //  set variables
             firstTileClicked = $(this).attr('id');
             topPosFir = parseInt($(this).css('top'));
             leftPosFir = parseInt($(this).css('left'));
 
-            //  highlight tile
             $(this).addClass('glow');
             tileClicked = true;
 
-        } else{  //  if you've clicked a tile
+        } else{
 
-            //  set variables
             secondTileClicked = $(this).attr('id');
             topPosSec = parseInt($(this).css('top'));
             leftPosSec = parseInt($(this).css('left'));
 
-            //  animations
             $('#' + firstTileClicked).css({'top' : topPosSec , 'left' : leftPosSec});
             $('#' + secondTileClicked).css({'top' : topPosFir , 'left' : leftPosFir});
 
-            //  remove the glow and reset the first tile
             $('.pieces').removeClass('glow');
             tileClicked = false;
 
-            //  test for the win
 
             setTimeout(function(){
                 if(
@@ -99,18 +89,94 @@ $(document).ready(function(){
                     $('#piece-5').css('left') == '305px' && $('#piece-5').css('top') == '305px' &&
                     $('#piece-6').css('left') == '610px' && $('#piece-6').css('top') == '305px'
                 ){
-                    $('p').text('You have solved the puzzle in ' + secs + ' seconds using ' + moves + ' moves!!');
+                    $('p').text('Resolvistes el puzzle en ' + secs + ' segundos usando ' + moves + ' movimientos!!');
                     $('article').addClass('glow-2');
                     moves = 0;
                 }
             }, 1000);
 
-            //  increment the move counter
             moves++
 
         }
 
-    });  //  end the click function
+    });
+
+
+    let imagen_bocabajo = false;
+
+
+    //logica bombilla
+
+    $(".pieces").dblclick(function () {
+
+        console.log(this.id);
+
+       if(imagen_bocabajo === false) {
+
+           $(this).css("background-image", "url('https://testmecards.files.wordpress.com/2014/07/aviator-blue-back.jpg')");
+
+           return imagen_bocabajo = true;
+
+       }else if(imagen_bocabajo === true){
+
+            switch (this.id) {
+
+                case "piece-1":
+
+                    $(this).css("background-image", "url('../material_puzzle/rafael_1.jpg')");
+
+
+                    break;
+
+                case "piece-2":
+
+                    $(this).css("background-image", "url('../material_puzzle/rafael_2.jpg')");
+
+
+                    break;
+
+                case "piece-3":
+
+                    $(this).css("background-image", "url('../material_puzzle/rafael_3.jpg')");
+
+
+                    break;
+
+                case "piece-4":
+
+                    $(this).css("background-image", "url('../material_puzzle/rafael_4.jpg')");
+
+
+                    break;
+
+                case "piece-5":
+
+                    $(this).css("background-image", "url('../material_puzzle/rafael_5.jpg')");
+
+
+                    break;
+
+                case "piece-6":
+
+                    $(this).css("background-image", "url('../material_puzzle/rafael_6.jpg')");
+
+
+                    break;
+                
+            }
+
+           return imagen_bocabajo = false;
+
+       }
+
+
+
+    });
+
+
+
+
+
 
 });
 

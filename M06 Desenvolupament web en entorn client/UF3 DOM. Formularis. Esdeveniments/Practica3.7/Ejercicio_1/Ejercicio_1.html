@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio_1 : Puzzle</title>
     <script src="../material_puzzle/jquery-2.1.4.js"></script>
     <script src="../material_puzzle/jquery-ui.min.js"></script>
@@ -41,6 +42,11 @@
         .pieces{
             width: 300px;
             height: 300px;
+
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 50px 50px;
+
             position: absolute;
             z-index: 100;
             -webkit-transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
@@ -114,9 +120,11 @@
 
 
     </style>
-
 </head>
 <body>
+
+<h3 align="center"> Puzzle (Clickar 2 veces una carta para verla bocabajo y otras 2 veces para recuperar la imagen anterior)</h3>
+
 <article>
     <div class="pieces" id="piece-1"></div>
     <div class="pieces" id="piece-2"></div>
@@ -128,7 +136,6 @@
 
 <p></p>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script></div>
 </body>
 
 
